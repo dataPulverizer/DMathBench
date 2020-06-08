@@ -8,7 +8,7 @@ D makes (at least) three basic mathematics libraries available, [`std.math`](htt
 
 The mathematical functions `cos`, `exp`, `exp2`, `fabs`, `fmax`, `fmin`, `log`, `log10`, `log2`, `pow`, `round`, `sin`, `sqrt` are benchmarked for `float`, `double`, and `real` that is 32 bit, 64 bit, and 80 bit floating point types respectively. The functions were executed on values in arrays generated using a random number generator with sizes (100k, 500k, 1M, 5M, 10M, 100M) (k = thousand, M = Million). The `pow` (exponential) functions were also tested using exponents (-1.0, -0.75, -0.5, -0.25, 0.0, 0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0,  2.25,  2.5, 2.75, 3.0). The code for this article is located in a [GitHub repository](https://github.com/dataPulverizer/DmathBench). The outputs for the `pow` function is presented separately from the other functions since multiple exponents are examined.
 
-It is worth mentioning that performance is an important factor to think about then considering which mathematics library to use, but it is just *one* of multiple factors you should consider so bear that in mind as you read this article.
+It is worth mentioning that while performance is an important factor to think about then considering which mathematics library to use, it is just *one* of multiple factors you should consider so bear that in mind as you read this article.
 
 ## Outputs
 
